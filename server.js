@@ -2,7 +2,7 @@ const http = require('http');
 const https = require('https');
 
 const IPTV_API = 'https://p2player.top/api/chatbot/80m1EGKDlE/gQBWQ5WGRe';
-const AUTOLOGIN_BASE = 'https://marnelly.github.io/iptv-painel/autologin.html';
+const AUTOLOGIN_BASE = 'https://iptv-painel.netlify.app/autologin.html';
 
 function callIptvApi() {
   return new Promise((resolve, reject) => {
